@@ -26,6 +26,12 @@ li {
   height: 250px;
   transform: translate(-50%, -50%);
   /* background-color: lime; */
+  
+  border-radius: 50%;
+}
+
+.menu.active{
+  background-color: rgb(223, 145, 243);
 }
 
 ion-icon {
@@ -46,6 +52,8 @@ ion-icon {
   justify-content: center;
   align-items: center;
   z-index: 1000;
+  
+  
 }
 
 .menu .toggle ion-icon {
@@ -55,6 +63,7 @@ ion-icon {
 
 .menu .toggle.active {
   transform: rotate(315deg);
+  
 }
 
 .menu .icon {

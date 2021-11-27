@@ -8,6 +8,7 @@ toggle.onclick = e => {
   icon.forEach(i => {
     i.classList.toggle('active');
   })
+  draggable.classList.toggle('active')
 }
 
 let shiftX = 0;
@@ -37,3 +38,5 @@ nav.onmousedown = function(e){
 nav.ondragstart = function() {
   return false;
 }
+
+// drag시 좌표 수정, 클릭이벤트 막기 요망
