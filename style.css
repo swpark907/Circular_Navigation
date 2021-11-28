@@ -26,7 +26,8 @@ li {
   height: 250px;
   transform: translate(-50%, -50%);
   /* background-color: lime; */
-  
+  transition: background-color 0.5s;
+  transition-delay: 0.3s;
   border-radius: 50%;
 }
 
